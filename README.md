@@ -12,16 +12,19 @@ This project analyzes the nutritional profiles and categorization of various cer
 
 ### Installing
 1. Clone the repository:
-    ```bash
+   ```bash
     git clone https://github.com/TataDanielaM/data1202.git
     ```
 2. Change to the repository directory:
-    ```bash
+   ```bash
     cd data1202
     ```
 3. Install the required libraries:
     ```bash
-    pip install -r requirements.txt
+    pandas==1.3.3
+    numpy==1.21.2
+    matplotlib==3.4.3
+    seaborn==0.11.2
     ```
 
 ## Running the Tests
@@ -44,7 +47,7 @@ To deploy the notebook, simply run it in Jupyter Notebook:
 Daniela Tata
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Acknowledgement
 This project was created as part of the graduate certificate in Data Analytics for Business Decision Making at Durham College.
